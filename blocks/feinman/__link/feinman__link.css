@@ -7,4 +7,9 @@
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
+  transition: opacity 2s ease;
+}
+
+.feinman__link:hover {
+  opacity: 0.4;
 }
