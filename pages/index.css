@@ -1,3 +1,5 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/description/description.css);
@@ -14,14 +16,5 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/oacley/oacley.css);
 @import url(../blocks/khan/khan.css);
-
-.page {
-  min-width: 1100px;
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/resources/resources.css);
